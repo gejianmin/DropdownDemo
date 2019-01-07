@@ -11,7 +11,9 @@
         |
      
 特别注意：            1.所使用的宏在 JMPrefixHeader.pch文件
+
                     2.所使用的色值，按钮，标签在 Tools文件夹里
+                    
                     3.使用cocoaPods引用了 ：Masonry，SDWebImage，YYModel第三方库
          
         |
@@ -40,6 +42,11 @@
     [self.jm_tableView reloadSections:[NSIndexSet indexSetWithIndex:index] withRowAnimation:UITableViewRowAnimationFade];
     
 }
+|
+
+|
+
+|
  2.箭头旋转动画
         -(void)setModel:(JMFriendsGroupModel *)model{
         _model = model;
@@ -48,6 +55,11 @@
         self.arrow_ima.transform = model.opened ? CGAffineTransformMakeRotation(M_PI_2) : CGAffineTransformMakeRotation(0);
         }];
         }
+  |
+  
+  |
+  
+  |
  3.sectionView的点击代理
         -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
         
