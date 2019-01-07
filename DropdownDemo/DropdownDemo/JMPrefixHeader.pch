@@ -1,0 +1,35 @@
+//
+//  JMPrefixHeader.pch
+//  DropdownDemo
+//
+//  Created by gejianmin on 2019/1/7.
+//  Copyright © 2019 gejianmin. All rights reserved.
+//
+
+#ifndef JMPrefixHeader_pch
+#define JMPrefixHeader_pch
+
+#ifdef __OBJC__
+#import "JTDColorConfig.h"
+#import <Foundation/Foundation.h>
+#import "Masonry.h"
+#import "CustomBtn.h"
+#import "CustomLab.h"
+#import "YYModel.h"
+#import "UIImageView+WebCache.h"
+
+/*!< 屏幕的高度*/
+#define JM_SCREEN_H [UIScreen mainScreen].bounds.size.height
+/*!< 屏幕的宽度*/
+#define JM_SCREEN_W [UIScreen mainScreen].bounds.size.width
+/*!< 5.8英寸屏幕,iphone_X,iphone_XS*/
+#define JTD_SCREEN_5_8 ([UIScreen mainScreen].bounds.size.height==812.f)
+/*!< 6.1英寸屏幕,iphone_XR,iphone_XS_MAX*/
+#define JTD_SCREEN_6_1 ([UIScreen mainScreen].bounds.size.height==896.f)
+/*!< 距导航栏顶部高度*/
+#define JTD_NAVHEIGHT  ((JTD_SCREEN_5_8||JTD_SCREEN_6_1) ? 88.0f : 64.0f)
+
+
+#endif
+
+#endif /* JMPrefixHeader_pch */
