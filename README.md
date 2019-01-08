@@ -1,6 +1,9 @@
 # DropdownDemo
  
 类QQ的下拉列表
+## 效果图：
+
+![image](https://im4.ezgif.com/tmp/ezgif-4-f79dcea15024.gif)
 
 ## 功能：
 类似于QQ好友列表的下拉功能。
