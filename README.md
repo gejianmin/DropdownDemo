@@ -1,6 +1,6 @@
 # DropdownDemo
  
-类QQ的下拉列表1
+类QQ的下拉列表
 ## gif效果图：
 
 ![image](https://im4.ezgif.com/tmp/ezgif-4-f79dcea15024.gif)
