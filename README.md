@@ -3,7 +3,8 @@
 类QQ的下拉列表
 ## gif效果图：
 
-![image](https://im4.ezgif.com/tmp/ezgif-4-f79dcea15024.gif)
+![gif效果图](https://github.com/gejianmin/DropdownDemo/blob/master/DropdownDemo/DropdownDemo.gif)
+
 
 ## 功能：
 类似于QQ好友列表的下拉功能。
